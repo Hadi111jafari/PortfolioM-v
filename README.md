@@ -1,5 +1,5 @@
 # Porfolio
-> Hadi's Portfolio website
+> My Portfolio website that help others understand who i am and what technologies i know and how to get in touch with me
 
 
 ## Built With

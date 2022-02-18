@@ -14,7 +14,6 @@ body {
 }
 
 @media (max-width: 600px) {
-
   nav {
     display: flex;
     flex-direction: row;
@@ -36,28 +35,17 @@ body {
     width: 18px;
     height: 12px;
     justify-content: flex-end;
+    margin: 5px 0 0 0;
   }
 
   .content-area {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    background: url("./images/Ellipse3.png") top right no-repeat, url("./images/Ellipse4.png") 237px 564px no-repeat, url("./images/Ellipse5.png") 132px 111.81px no-repeat, url("./images/Ellipse8.png") 214px 66px no-repeat, url("./images/Ellipse11.png") left top no-repeat, url("./images/Ellipse12.png") 341.76px 484.5px no-repeat, url("./images/Ellipse13.png") 332.18px 496.46px no-repeat, url("./images/Ellipse14.png") 298px 271px no-repeat, url("./images/Ellipse15.png") 53px 550px no-repeat, url("./images/Rectangle4.png") top right no-repeat, url("./images/Rectangle5.png") 191.82px 560px no-repeat, url("./images/Rectangle6.png") -25px 77px no-repeat, url("./images/Rectangle7.png") 127.18px 99px no-repeat;
+    background-color: #fff;
     border-radius: 0 0 0 5rem;
-    padding: 114px 24px;
-    color: #fff;
-    background: url("./images/Ellipse3.png") top right no-repeat,
-      url("./images/Ellipse4.png") 237px 564px no-repeat,
-      url("./images/Ellipse5.png") 132px 111.81px no-repeat,
-      url("./images/Ellipse8.png") 214px 66px no-repeat,
-      url("./images/Ellipse11.png") left top no-repeat,
-      url("./images/Ellipse12.png") 341.76px 484.5px no-repeat,
-      url("./images/Ellipse13.png") 332.18px 496.46px no-repeat,
-      url("./images/Ellipse14.png") 298px 271px no-repeat,
-      url("./images/Ellipse15.png") 53px 550px no-repeat,
-      url("./images/Rectangle4.png") top right no-repeat,
-      url("./images/Rectangle5.png") 191.82px 560px no-repeat,
-      url("./images/Rectangle6.png") -25px 77px no-repeat,
-      url("./images/Rectangle7.png") 127.18px 99px no-repeat;
+    padding: 145px 24px;
   }
 
   #intro {
