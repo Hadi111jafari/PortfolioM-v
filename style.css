@@ -10,10 +10,13 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
-  
 }
 
-@media (max-width: 600px) {
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
   nav {
     display: flex;
     flex-direction: row;
@@ -89,8 +92,226 @@ body {
     height: 20px;
   }
 
+  .language img {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    margin-right: 1rem;
+  }
+
+  .card img {
+    width: 100%;
+    height: 220px;
+  }
+
   .social-icons li img {
     width: 20px;
     height: 20px;
   }
+
+  /* projects starts */
+
+  #cards {
+    display: -ms-grid;
+    display: grid;
+    align-items: center;
+    padding: 16px;
+    margin: 70px 0 0 0;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #dfe1e6;
+    background-color: #fff;
+    margin: 44px 24px;
+    border-radius: 16px;
+    padding: 16px;
+  }
+
+  .card h3 {
+    margin: 12px 0;
+    font-size: 32px;
+    line-height: 44px;
+    font-weight: bold;
+    color: #172b4d;
+  }
+
+  .card-content {
+    display: flex;
+    align-items: center;
+    margin: 12px 0;
+    padding-top: 8px;
+  }
+
+  .card-owner {
+    color: #344563;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  .card-content ul {
+    display: flex;
+    padding-left: 1.6rem;
+  }
+
+  .card-content ul li {
+    color: #7a869a;
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  .card p {
+    color: #344563;
+    padding: 12px 0;
+    margin: 12px 0;
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .card-tags {
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    color: #6070ff;
+  }
+
+  .card-tags li a:first-child {
+    margin: 2px;
+  }
+
+  .tag {
+    background: #ebebff;
+    padding: 4px 12px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    border-radius: 7px;
+    margin: 0;
+  }
+
+  .card-button {
+    border: 1px solid #396df2;
+    font-weight: bold;
+    margin: 2rem 1rem 0 0;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 0.8rem 1rem;
+    color: #396df2;
+    letter-spacing: 0.03em;
+    font-size: 17px;
+  }
+
+  .card-button:hover {
+    background: #6070ff;
+    color: #fff;
+  }
+
+  .card-button:active {
+    background: #2230d2;
+    color: #fff;
+  }
+
+  .card-button:disabled {
+    background: #e5e5e5;
+    color: #5e6c84;
+  }
+
+  /* projects End */
+
+  /* About start */
+
+  #about {
+    background-color: #fff;
+    border-radius: 0 6rem 0 0;
+    padding: 57px 24px;
+    margin: 70px 0 0 0;
+  }
+
+  #about h3 {
+    margin: 6px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    color: #172b4d;
+  }
+
+  #about p {
+    align-self: center;
+    margin: 6px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+  }
+
+  #get-resume {
+    margin: 32px 16px 0 0;
+    border: 1px solid #396df2;
+    font-weight: bold;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 0.8rem 1rem;
+    color: #396df2;
+    letter-spacing: 0.03em;
+    font-size: 17px;
+  }
+
+  .showcase {
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    padding: 10px 36px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    border-bottom: 1px solid #e5e5e5;
+    color: #000;
+  }
+
+  .language {
+    display: flex;
+    background: #f7f7f9;
+    border-radius: 8px;
+    margin: 12px;
+    padding: 0 2rem;
+    align-self: center;
+  }
+
+  .backend {
+    margin-left: 0.5rem;
+    margin-right: 0.6rem;
+  }
+
+  .year {
+    margin-left: 1rem;
+  }
+
+  #showcase-first {
+    margin-top: 36px;
+    padding-top: 5px;
+  }
+
+  .accordion {
+    margin: 1rem;
+  }
+
+  #about-social p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7f8cff;
+    margin: 16px 8px;
+  }
+
+  #about-social ul {
+    margin: 8px 20px;
+  }
+
+  /* About end */
 }
