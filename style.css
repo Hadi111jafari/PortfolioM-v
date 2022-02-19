@@ -96,7 +96,7 @@ a {
     border-radius: 50%;
     width: 48px;
     height: 48px;
-    margin-right: 1rem;
+    margin: 8px;
   }
 
   .card img {
@@ -251,7 +251,7 @@ a {
   }
 
   #get-resume {
-    margin: 32px 16px 0 0;
+    margin: 32px 16px 0 8px;
     border: 1px solid #396df2;
     font-weight: bold;
     background-color: #fff;
@@ -263,24 +263,20 @@ a {
   }
 
   .showcase {
-    display: flex;
-    justify-items: center;
-    justify-content: space-between;
-    padding: 10px 36px;
     font-size: 20px;
     line-height: 24px;
     font-weight: 500;
-    border-bottom: 1px solid #e5e5e5;
+    margin-top: 20px;
     color: #000;
+    list-style-type: none;
   }
 
   .language {
     display: flex;
     background: #f7f7f9;
     border-radius: 8px;
-    margin: 12px;
-    padding: 0 2rem;
-    align-self: center;
+    margin: 6px;
+    list-style-type: none;
   }
 
   .backend {
@@ -292,13 +288,20 @@ a {
     margin-left: 1rem;
   }
 
-  #showcase-first {
-    margin-top: 36px;
-    padding-top: 5px;
+  .showcase-list {
+    display: flex;
+    border-bottom: 1px solid #e5e5e5;
+    justify-content: space-between;
+  }
+
+  .showcase-list:first-child {
+    border-bottom: none;
   }
 
   .accordion {
     margin: 1rem;
+    padding: 10px;
+    float: right;
   }
 
   #about-social p {
