@@ -45,7 +45,19 @@ a {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    background: url("./images/Ellipse3.png") top right no-repeat, url("./images/Ellipse4.png") 237px 564px no-repeat, url("./images/Ellipse5.png") 132px 111.81px no-repeat, url("./images/Ellipse8.png") 214px 66px no-repeat, url("./images/Ellipse11.png") left top no-repeat, url("./images/Ellipse12.png") 341.76px 484.5px no-repeat, url("./images/Ellipse13.png") 332.18px 496.46px no-repeat, url("./images/Ellipse14.png") 298px 271px no-repeat, url("./images/Ellipse15.png") 53px 550px no-repeat, url("./images/Rectangle4.png") top right no-repeat, url("./images/Rectangle5.png") 191.82px 560px no-repeat, url("./images/Rectangle6.png") -25px 77px no-repeat, url("./images/Rectangle7.png") 127.18px 99px no-repeat;
+    background: url("./images/Ellipse3.png") top right no-repeat,
+      url("./images/Ellipse4.png") 237px 564px no-repeat,
+      url("./images/Ellipse5.png") 132px 111.81px no-repeat,
+      url("./images/Ellipse8.png") 214px 66px no-repeat,
+      url("./images/Ellipse11.png") left top no-repeat,
+      url("./images/Ellipse12.png") 341.76px 484.5px no-repeat,
+      url("./images/Ellipse13.png") 332.18px 496.46px no-repeat,
+      url("./images/Ellipse14.png") 298px 271px no-repeat,
+      url("./images/Ellipse15.png") 53px 550px no-repeat,
+      url("./images/Rectangle4.png") top right no-repeat,
+      url("./images/Rectangle5.png") 191.82px 560px no-repeat,
+      url("./images/Rectangle6.png") -25px 77px no-repeat,
+      url("./images/Rectangle7.png") 127.18px 99px no-repeat;
     background-color: #fff;
     border-radius: 0 0 0 5rem;
     padding: 145px 24px;
@@ -314,6 +326,149 @@ a {
 
   #about-social ul {
     margin: 8px 20px;
+  }
+
+  #contact {
+    padding: 80px 0 0 0;
+    background-color: #fff;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 70px 0 0 0;
+    background-color: #6070ff;
+    
+    
+  }
+  footer h2 {
+    margin-top: 103px;
+    margin-bottom: 6px;
+    color: #fff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  #para {
+    color: #ebebff;
+    margin: 6px 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .name {
+    border: 1px solid #cfd8dc;
+    border-radius: 5px;
+    background: #fff;
+    margin: 87px 0 10px 0;
+    padding: 10px;
+    height: 80%;
+    width: 95%;
+  }
+
+  .email {
+    border: 1px solid #cfd8dc;
+    border-radius: 5px;
+    background: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    height: 80%;
+    width: 95%;
+  }
+
+  .textarea {
+    border: 1px solid #cfd8dc;
+    border-radius: 5px;
+    background: #fff;
+    margin: 12px 0;
+    width: 100%;
+  }
+
+  .button {
+    margin: 12px 0 14px 0;
+    padding: 12px 16px;
+    width: 30%;
+    height: 10%;
+    background: #fff;
+    border-radius: 8px;
+    color: #6070ff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    border: 1px solid #cfd8dc;
+  }
+
+  
+  .button:hover {
+    margin: 12px 0 14px 0;
+    padding: 12px 16px;
+    width: 30%;
+    height: 10%;
+    background: #6070ff;
+    color: #fff;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    border: 1px solid #cfd8dc;
+  }
+
+  .button:active {
+    margin: 12px 0 14px 0;
+    padding: 12px 16px;
+    width: 30%;
+    height: 10%;
+    background: #2230d2;
+    color: #fff;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    border: 1px solid #cfd8dc;
+  }
+
+  .button:disabled {
+    margin: 12px 0 14px 0;
+    padding: 12px 16px;
+    width: 30%;
+    height: 10%;
+    background: #e5e5e5;
+    color: #5e6c84;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    border: 1px solid #cfd8dc;
+  }
+
+
+  #line {
+    width: 134px;
+    height: 5px;
+    left: calc(50% - 134px / 2 - 0.5px);
+    bottom: 8px;
+    background: #0d151e;
+    border-radius: 10px;
+    margin: 32px 10px 8px 10px;
   }
 
   /* About end */
