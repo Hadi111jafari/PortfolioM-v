@@ -346,6 +346,7 @@ a {
     font-weight: normal;
     font-size: 20px;
     line-height: 28px;
+    text-align: center;
   }
 
   form {
@@ -375,11 +376,14 @@ a {
   }
 
   .textarea {
+    padding: 14px;
+    /* margin-right: 24px; */
     border: 1px solid #cfd8dc;
     border-radius: 5px;
     background: #fff;
-    margin: 12px 0;
+    margin: 12px 12px 12px 0 ;
     width: 100%;
+    box-sizing: border-box;
   }
 
   .button {
@@ -396,6 +400,7 @@ a {
     line-height: 24px;
     letter-spacing: 0.03em;
     border: 1px solid #cfd8dc;
+    min-width: 140px;
   }
 
   .button:hover {
