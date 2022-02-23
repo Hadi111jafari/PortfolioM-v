@@ -377,11 +377,10 @@ a {
 
   .textarea {
     padding: 14px;
-    /* margin-right: 24px; */
     border: 1px solid #cfd8dc;
     border-radius: 5px;
     background: #fff;
-    margin: 12px 12px 12px 0 ;
+    margin: 12px 12px 12px 0;
     width: 100%;
     box-sizing: border-box;
   }
